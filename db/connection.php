@@ -3,7 +3,7 @@
 $dbhost = "localhost";
 $dbuser = "admin";
 $dbpass = "admin";
-$dbname = "saar";
+$dbname = "chat";
 
 if (!$con = mysqli_connect($dbhost, $dbuser, $dbpass, $dbname)) {
 	die("failed to connect!");
